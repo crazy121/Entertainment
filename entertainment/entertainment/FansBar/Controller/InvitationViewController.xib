@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InvitationViewController">
+            <connections>
+                <outlet property="invitationTableView" destination="nWX-fv-0so" id="0Ga-93-X18"/>
+                <outlet property="respondTest" destination="Kbx-On-rNC" id="OSb-4c-mxM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AmD-G7-ODs">
+                    <rect key="frame" x="0.0" y="475" width="320" height="44"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="回复楼主          已有1003人回帖" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kbx-On-rNC">
+                            <rect key="frame" x="61" y="8" width="211" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            <connections>
+                                <action selector="textFieldDoneEditing:" destination="-1" eventType="editingDidEnd" id="DoV-Ln-JNS"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTn-Zc-qUX">
+                            <rect key="frame" x="275" y="4" width="45" height="38"/>
+                            <state key="normal" title="回帖">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un9-4Y-cHv">
+                            <rect key="frame" x="37" y="8" width="27" height="30"/>
+                            <state key="normal" image="cellCollect"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUd-IT-GJL">
+                            <rect key="frame" x="8" y="9" width="25" height="27"/>
+                            <state key="normal" image="cell_share24px副本"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.81616586538461533" green="0.81616586538461533" blue="0.81616586538461533" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nWX-fv-0so">
+                    <rect key="frame" x="5" y="0.0" width="310" height="475"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="jRs-R1-EHM"/>
+                        <outlet property="delegate" destination="-1" id="6et-PS-OP2"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nWX-fv-0so" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="10g-jl-q4Q"/>
+                <constraint firstItem="nWX-fv-0so" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6U0-WB-UHi"/>
+                <constraint firstAttribute="bottom" secondItem="nWX-fv-0so" secondAttribute="bottom" constant="44" id="GWz-yt-UZS"/>
+                <constraint firstAttribute="trailing" secondItem="nWX-fv-0so" secondAttribute="trailing" constant="5" id="SMJ-XC-riD"/>
+                <constraint firstAttribute="trailing" secondItem="AmD-G7-ODs" secondAttribute="trailing" id="mCS-6t-HUJ"/>
+                <constraint firstItem="AmD-G7-ODs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oAe-2m-Ky6"/>
+                <constraint firstItem="AmD-G7-ODs" firstAttribute="top" secondItem="nWX-fv-0so" secondAttribute="bottom" id="pr9-gW-mh8"/>
+                <constraint firstAttribute="bottom" secondItem="AmD-G7-ODs" secondAttribute="bottom" id="si6-cy-T3J"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="266" y="210"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cellCollect" width="15" height="14"/>
+        <image name="cell_share24px副本" width="24" height="24"/>
+    </resources>
+</document>

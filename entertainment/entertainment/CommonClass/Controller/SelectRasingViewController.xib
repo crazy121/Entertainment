@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectRasingViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nX0-cm-oLL">
+                    <rect key="frame" x="99" y="214" width="122" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="122" id="1JT-Lq-Czc"/>
+                        <constraint firstAttribute="height" constant="33" id="gRU-QF-4ro"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="股权众筹"/>
+                    <connections>
+                        <action selector="buttonClicked:" destination="-1" eventType="touchUpInside" id="VjS-ws-CID"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaB-gg-Z2V">
+                    <rect key="frame" x="224" y="530" width="88" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="88" id="irT-P4-WoI"/>
+                        <constraint firstAttribute="height" constant="30" id="tzc-yP-b2d"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="了解众筹方式">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p29-Ps-7qL">
+                    <rect key="frame" x="99" y="268" width="122" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="GBC-mV-sjf"/>
+                        <constraint firstAttribute="width" constant="122" id="GGj-Qb-8Cq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="实物众筹"/>
+                    <connections>
+                        <action selector="buttonClicked:" destination="-1" eventType="touchUpInside" id="zGn-ZH-HA0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nX0-cm-oLL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0TT-fD-jqk"/>
+                <constraint firstAttribute="trailing" secondItem="yaB-gg-Z2V" secondAttribute="trailing" constant="8" id="3u2-LP-8du"/>
+                <constraint firstItem="p29-Ps-7qL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="J1e-sH-yf0"/>
+                <constraint firstItem="p29-Ps-7qL" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="OEr-wD-LWA"/>
+                <constraint firstAttribute="bottom" secondItem="yaB-gg-Z2V" secondAttribute="bottom" constant="8" id="aI4-wt-XFX"/>
+                <constraint firstItem="p29-Ps-7qL" firstAttribute="top" secondItem="nX0-cm-oLL" secondAttribute="bottom" constant="21" id="xby-hp-Jxu"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

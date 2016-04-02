@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="MovieTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movie_1" translatesAutoresizingMaskIntoConstraints="NO" id="ZnL-B1-HPC">
+                        <rect key="frame" x="8" y="8" width="73" height="105"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="73" id="YFD-Kn-Nl1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="变形金刚3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6t0-NP-TqV">
+                        <rect key="frame" x="89" y="8" width="65" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="导演:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyv-MS-jWy">
+                        <rect key="frame" x="89" y="37" width="33" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="GWM-GD-E44"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="迈克尔⋅贝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSn-vf-dFd">
+                        <rect key="frame" x="130" y="37" width="182" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 希亚·拉博夫，罗茜·汉丁顿·惠特莉，乔什·杜哈明，约翰·特托罗，彼得·库伦" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDm-Zz-GTl">
+                        <rect key="frame" x="130" y="61" width="182" height="52"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="演员:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHJ-WH-jiP">
+                        <rect key="frame" x="89" y="61" width="33" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="A54-2x-jTS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZnL-B1-HPC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="2j7-rc-pme"/>
+                    <constraint firstItem="kyv-MS-jWy" firstAttribute="baseline" secondItem="dSn-vf-dFd" secondAttribute="firstBaseline" id="3gG-Bf-0N3"/>
+                    <constraint firstItem="dSn-vf-dFd" firstAttribute="baseline" secondItem="kyv-MS-jWy" secondAttribute="firstBaseline" id="4YP-zY-93j"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="xHJ-WH-jiP" secondAttribute="bottom" constant="39" id="7j1-P9-9vl"/>
+                    <constraint firstItem="TDm-Zz-GTl" firstAttribute="leading" secondItem="xHJ-WH-jiP" secondAttribute="trailing" constant="8" symbolic="YES" id="9MX-Tl-Nrc"/>
+                    <constraint firstItem="xHJ-WH-jiP" firstAttribute="leading" secondItem="kyv-MS-jWy" secondAttribute="leading" id="9Ws-9v-QdC"/>
+                    <constraint firstItem="xHJ-WH-jiP" firstAttribute="firstBaseline" secondItem="TDm-Zz-GTl" secondAttribute="firstBaseline" id="OU2-6v-ntQ"/>
+                    <constraint firstItem="TDm-Zz-GTl" firstAttribute="bottom" secondItem="ZnL-B1-HPC" secondAttribute="bottom" id="QXH-9W-HaA"/>
+                    <constraint firstItem="kyv-MS-jWy" firstAttribute="top" secondItem="6t0-NP-TqV" secondAttribute="bottom" constant="8" symbolic="YES" id="TJv-vz-8e4"/>
+                    <constraint firstItem="dSn-vf-dFd" firstAttribute="leading" secondItem="kyv-MS-jWy" secondAttribute="trailing" constant="8" symbolic="YES" id="W8x-cP-X45"/>
+                    <constraint firstItem="TDm-Zz-GTl" firstAttribute="leading" secondItem="dSn-vf-dFd" secondAttribute="leading" id="Xlg-W6-DQ7"/>
+                    <constraint firstItem="dSn-vf-dFd" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="b5m-hZ-DHO"/>
+                    <constraint firstItem="ZnL-B1-HPC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ctw-M2-aev"/>
+                    <constraint firstItem="xHJ-WH-jiP" firstAttribute="top" secondItem="kyv-MS-jWy" secondAttribute="bottom" constant="8" symbolic="YES" id="dnB-IM-FQo"/>
+                    <constraint firstItem="6t0-NP-TqV" firstAttribute="leading" secondItem="ZnL-B1-HPC" secondAttribute="trailing" constant="8" symbolic="YES" id="jlE-UX-kah"/>
+                    <constraint firstItem="6t0-NP-TqV" firstAttribute="top" secondItem="ZnL-B1-HPC" secondAttribute="top" id="psd-Od-kHi"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ZnL-B1-HPC" secondAttribute="bottom" constant="8" id="t66-9s-2rv"/>
+                    <constraint firstItem="kyv-MS-jWy" firstAttribute="leading" secondItem="6t0-NP-TqV" secondAttribute="leading" id="xHf-d0-99a"/>
+                    <constraint firstItem="dSn-vf-dFd" firstAttribute="trailing" secondItem="TDm-Zz-GTl" secondAttribute="trailing" id="yUE-ik-GxH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="433" y="407"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="movie_1" width="220" height="308"/>
+    </resources>
+</document>

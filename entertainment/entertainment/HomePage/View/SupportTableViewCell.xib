@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="190" id="KGk-i7-Jjw" customClass="SupportTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lln-Gc-6Ve">
+                        <rect key="frame" x="8" y="8" width="38" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="0SP-7f-cM2"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="GK5-gS-eqb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adW-vP-hWT">
+                        <rect key="frame" x="282" y="8" width="30" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="CsJ-vD-q4L"/>
+                            <constraint firstAttribute="height" constant="21" id="UnY-vR-jEN"/>
+                        </constraints>
+                        <state key="normal" title="支持"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghT-ye-IOL">
+                        <rect key="frame" x="8" y="37" width="304" height="117"/>
+                        <string key="text">    在众筹结束后，每满1300人，将由京东官方抽取1名幸运用户获得预期市场价1699元的“Ninebot One A1 九号单轮平衡车”1辆。抽奖规则以及中奖名单将在话题区公布。由ninebot自营旗舰店发货。同时，每位支持者将获得ninebot自营旗舰店50元优惠券，可在有效期内用于购买全店平衡车。</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23位支持者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbO-oA-PvQ">
+                        <rect key="frame" x="8" y="162" width="68" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="VDR-Wz-rfV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.13451173690000001" green="0.49314903850000003" blue="0.2875420481" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="限额1000位" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EvC-IM-j6F">
+                        <rect key="frame" x="156" y="162" width="73" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="73" id="9WO-jJ-C63"/>
+                            <constraint firstAttribute="height" constant="16" id="mTX-Mz-QvN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.13451173690000001" green="0.49314903850000003" blue="0.2875420481" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJ8-oP-LVz">
+                        <rect key="frame" x="237" y="162" width="1" height="16"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="BQR-iP-mcE"/>
+                            <constraint firstAttribute="height" constant="16" id="cOw-kv-Ehr"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="剩余977位" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgD-Dq-ZmO">
+                        <rect key="frame" x="250" y="162" width="62" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Wca-Ld-mJB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.13451173690000001" green="0.49314903850000003" blue="0.2875420481" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BbO-oA-PvQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="38s-U3-Rij"/>
+                    <constraint firstItem="adW-vP-hWT" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="6WB-fd-ydC"/>
+                    <constraint firstItem="ghT-ye-IOL" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="9eL-Yd-tl8"/>
+                    <constraint firstItem="adW-vP-hWT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="BJx-r8-Sn9"/>
+                    <constraint firstItem="BbO-oA-PvQ" firstAttribute="top" secondItem="ghT-ye-IOL" secondAttribute="bottom" constant="8" id="Ery-tf-Gc5"/>
+                    <constraint firstItem="lln-Gc-6Ve" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Tvm-bl-sif"/>
+                    <constraint firstItem="lln-Gc-6Ve" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="VX2-DV-rvM"/>
+                    <constraint firstItem="lln-Gc-6Ve" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Vd8-Tf-p8R"/>
+                    <constraint firstItem="ghT-ye-IOL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Vxi-Wg-N4d"/>
+                    <constraint firstItem="lJ8-oP-LVz" firstAttribute="top" secondItem="ghT-ye-IOL" secondAttribute="bottom" constant="8" id="WPZ-5T-H5z"/>
+                    <constraint firstItem="ghT-ye-IOL" firstAttribute="top" secondItem="adW-vP-hWT" secondAttribute="bottom" constant="8" id="cK6-R4-SSB"/>
+                    <constraint firstItem="adW-vP-hWT" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="fNJ-xl-bzS"/>
+                    <constraint firstItem="adW-vP-hWT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="fex-DN-kMu"/>
+                    <constraint firstItem="lJ8-oP-LVz" firstAttribute="leading" secondItem="EvC-IM-j6F" secondAttribute="trailing" constant="8" id="fn8-IG-xnz"/>
+                    <constraint firstItem="WgD-Dq-ZmO" firstAttribute="top" secondItem="ghT-ye-IOL" secondAttribute="bottom" constant="8" id="gSu-cc-KCm"/>
+                    <constraint firstItem="EvC-IM-j6F" firstAttribute="top" secondItem="ghT-ye-IOL" secondAttribute="bottom" constant="8" id="hYc-MJ-Gg5"/>
+                    <constraint firstItem="WgD-Dq-ZmO" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="iIa-Ad-zjr"/>
+                    <constraint firstItem="lln-Gc-6Ve" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="rvx-Xj-W5f"/>
+                    <constraint firstItem="WgD-Dq-ZmO" firstAttribute="leading" secondItem="lJ8-oP-LVz" secondAttribute="trailing" constant="12" id="seT-te-U3C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="319" y="342"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyWalletViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPz-rk-0rd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="359"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.31468729249999999" green="0.60000002379999995" blue="0.41330641680000002" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="累计收益" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpg-p5-wHH">
+                    <rect key="frame" x="231" y="120" width="56" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Og-j1-tPr">
+                    <rect key="frame" x="8" y="362" width="153" height="58"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.94709521812080533" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="       资金总览"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGr-X5-PVB">
+                    <rect key="frame" x="8" y="423" width="153" height="58"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.94709521812080533" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="       资金流水"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHa-YG-PW2">
+                    <rect key="frame" x="163" y="362" width="149" height="57"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.94709521812080533" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="         投资记录"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbd-ZE-rfT">
+                    <rect key="frame" x="163" y="423" width="149" height="57"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.94709521812080533" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="        充值提现"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNf-1a-ZKO">
+                    <rect key="frame" x="163" y="484" width="149" height="57"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.94709521809999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="        充值提现"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMk-ry-3ne">
+                    <rect key="frame" x="8" y="484" width="149" height="57"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.94709521809999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="        充值提现"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adw_icon_travel_normal" translatesAutoresizingMaskIntoConstraints="NO" id="heI-uQ-LOL">
+                    <rect key="frame" x="29" y="377" width="28" height="28"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adw_icon_travel_normal" translatesAutoresizingMaskIntoConstraints="NO" id="z6x-FR-Nn3">
+                    <rect key="frame" x="189" y="377" width="28" height="28"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adw_icon_travel_normal" translatesAutoresizingMaskIntoConstraints="NO" id="C5x-Fi-OoI">
+                    <rect key="frame" x="189" y="438" width="28" height="28"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adw_icon_travel_normal" translatesAutoresizingMaskIntoConstraints="NO" id="oER-ht-dnA">
+                    <rect key="frame" x="29" y="438" width="28" height="28"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adw_icon_travel_normal" translatesAutoresizingMaskIntoConstraints="NO" id="XB7-Sg-jX5">
+                    <rect key="frame" x="189" y="498" width="28" height="28"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avater" translatesAutoresizingMaskIntoConstraints="NO" id="6PF-bu-BaA">
+                    <rect key="frame" x="121" y="135" width="79" height="79"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Hi~Tomo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxm-Ij-ivM">
+                    <rect key="frame" x="129" y="214" width="62" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="总资产" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GC-j3-yfO">
+                    <rect key="frame" x="140" y="290" width="51" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="314545888.63" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNH-fY-5gM">
+                    <rect key="frame" x="140" y="307" width="115" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="31455.88" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMT-Ar-2ze">
+                    <rect key="frame" x="231" y="135" width="74" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_button" translatesAutoresizingMaskIntoConstraints="NO" id="2YP-pA-iRO">
+                    <rect key="frame" x="121" y="301" width="20" height="20"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_button" translatesAutoresizingMaskIntoConstraints="NO" id="XFH-s8-Vma">
+                    <rect key="frame" x="212" y="129" width="20" height="20"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adw_icon_travel_normal" translatesAutoresizingMaskIntoConstraints="NO" id="VN7-Sy-JeV">
+                    <rect key="frame" x="29" y="499" width="28" height="28"/>
+                    <animations/>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="258" y="245"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="adw_icon_travel_normal" width="41" height="41"/>
+        <image name="avater" width="89" height="89"/>
+        <image name="red_button" width="20" height="20"/>
+    </resources>
+</document>
